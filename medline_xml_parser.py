@@ -123,7 +123,7 @@ def detect_duplicates(authorNames):
 results = dict()
 
 # Insert path to read the medline xml file
-path = "C:\\Users\\Michail\\Desktop\\Papers\\3.The_global_burden_of_peer_review\\Data\\pubmed_" + str(1990) + ".xml"
+path = 
 
 context = etree.iterparse( path, tag='AuthorList' )
 authorNames, paperCount, authorError = fast_iter(context, process_element)
